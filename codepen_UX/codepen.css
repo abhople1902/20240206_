@@ -130,7 +130,7 @@ body{
 }
 
 .body{
-    height: 80%;
+    height: 85%;
     column-gap: 35px;
     row-gap: 35px;
     display: flex;
@@ -213,6 +213,8 @@ i{
 
 .code-header{
     height: 70px;
+    display: flex;
+    flex-direction: row;  
 
 }
 }
@@ -224,8 +226,26 @@ i{
     display: block;
     justify-content: center;
     align-items: center;
-    height: 10%;
+    height: 5%;
     font-size: 15px;
     font-weight: 400;
     background-color: #000000;
+}
+
+.bottomParent {
+  display: flex;
+  flex-direction: row;
+}
+
+.firstParent {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.secondParent {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+  margin-left: 780px;
 }
