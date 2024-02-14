@@ -147,6 +147,21 @@ body{
     color: #ffffff;
 }
 
+.middle-parent {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-middle{
+  display: block;
+}
+
+.right-middle{
+  display: flex;
+  flex-direction: column;
+  
+}
+
 .code{
     display: flex;
     flex-direction: column;
